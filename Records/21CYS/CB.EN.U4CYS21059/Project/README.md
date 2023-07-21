@@ -139,13 +139,10 @@ productivity, making it a valuable tool for individuals and teams seeking effici
     }
 
 
- 
-    
-## Demo
+### Demo
 
 <p align="center">
 <img src = "Assets/S1.png" width=600> <br/>
 <img src = "Assets/S2.png" width=600> <br/>
 <img src = "Assets/S3.png" width=600> <br/>
-
 </p>
