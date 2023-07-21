@@ -22,16 +22,12 @@ productivity, making it a valuable tool for individuals and teams seeking effici
 
 ## Code
 
-
-
-bash
-
-import javax.swing.*;
-import javax.swing.table.DefaultTableCellRenderer;
-import javax.swing.table.DefaultTableModel;
-import java.awt.*;
-
-public class LeaderboardUI extends JFrame {
+    import javax.swing.*;
+    import javax.swing.table.DefaultTableCellRenderer;
+    import javax.swing.table.DefaultTableModel;
+    import java.awt.*;
+    
+    public class LeaderboardUI extends JFrame {
     private JTable leaderboardTable;
 
     public LeaderboardUI(Object[][] leaderboardData, String[] columnNames) {
@@ -73,19 +69,20 @@ public class LeaderboardUI extends JFrame {
             }
         });
     }
-}
+    }
 
 
-import javax.swing.*;
-import java.awt.*;
-import java.awt.event.ActionEvent;
-import java.awt.event.ActionListener;
 
-public class TimeTrackerUI extends JFrame {
-    private JLabel timerLabel;
-    private JButton startButton;
-    private JButton stopButton;
-    private JComboBox<String> categoryComboBox;
+    import javax.swing.*;
+    import java.awt.*;
+    import java.awt.event.ActionEvent;
+    import java.awt.event.ActionListener;
+    
+    public class TimeTrackerUI extends JFrame {
+        private JLabel timerLabel;
+        private JButton startButton;
+        private JButton stopButton;
+        private JComboBox<String> categoryComboBox;
 
     public TimeTrackerUI() {
         setTitle("Time Tracker");
@@ -139,7 +136,7 @@ public class TimeTrackerUI extends JFrame {
             }
         });
     }
-}
+    }
 
 
  
